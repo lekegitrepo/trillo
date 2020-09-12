@@ -114,6 +114,23 @@
     height: 3.75rem;
     margin-right: $rem-1;
   }
+}
 
-  &__user-name {}
+/////////////////////////////////
+////// SIDE NAVIGATION
+.side-nav {
+  &__item {}
+
+  &__link {}
+
+  &__icon {}
+}
+
+/////////////////////////////////
+////// LEGAL TEXT
+.legal {
+  color: var(--color-grey-light-4);
+  font-size: 1.2rem;
+  padding: 2.5rem;
+  text-align: center;
 }
