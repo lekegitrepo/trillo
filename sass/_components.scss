@@ -196,3 +196,31 @@
     width: 100%;
   }
 }
+
+/////////////////////////////////
+////// OVERVIEW
+.overview {
+  display: flex;
+
+  &__heading {}
+
+  &__stars {
+    margin-right: auto;
+  }
+
+  &__icon-star,
+  &__icon-location {
+    fill: var(--color-primary);
+    height: 1.75rem;
+    width: 1.75rem;
+  }
+
+  &__location {
+  }
+
+  &__rating {}
+
+  &__rating-average {}
+
+  &__rating-count {}
+}

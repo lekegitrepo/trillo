@@ -193,3 +193,12 @@ body {
   .gallery__photo {
     display: block;
     width: 100%; }
+
+.overview {
+  display: flex; }
+  .overview__stars {
+    margin-right: auto; }
+  .overview__icon-star, .overview__icon-location {
+    fill: var(--color-primary);
+    height: 1.75rem;
+    width: 1.75rem; }
