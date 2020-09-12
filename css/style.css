@@ -187,3 +187,9 @@ body {
   font-size: 1.2rem;
   padding: 2.5rem;
   text-align: center; }
+
+.gallery {
+  display: flex; }
+  .gallery__photo {
+    display: block;
+    width: 100%; }
