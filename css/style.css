@@ -143,9 +143,23 @@ body {
     height: 3.75rem;
     margin-right: 1rem; }
 
-.side-nav__icon {
-  height: 1.75rem;
-  width: 1.75rem; }
+.side-nav {
+  font-size: 1.4rem;
+  list-style: none;
+  margin-top: 3.5rem; }
+  .side-nav__link:link, .side-nav__link:visited {
+    color: var(--color-grey-light-1);
+    display: block;
+    padding: 1.5rem 3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    align-items: center;
+    display: flex; }
+  .side-nav__icon {
+    fill: currentColor;
+    height: 1.75rem;
+    margin-right: 2rem;
+    width: 1.75rem; }
 
 .legal {
   color: var(--color-grey-light-4);
