@@ -211,6 +211,12 @@ body {
     fill: var(--color-primary);
     height: 1.75rem;
     width: 1.75rem; }
+  .overview__location {
+    align-items: center;
+    display: flex;
+    font-size: 1.2rem; }
+  .overview__icon-location {
+    margin-right: .5rem; }
 
 .btn-inline {
   background-color: transparent;
